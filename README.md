@@ -1,3 +1,38 @@
-# minarxmrig
-La última versión de XMRig 6.0.0-Beta viene con soporte para el algoritmo KAWPOW utilizado por Ravencoin (RVN) para GPU AMD y Nvidia. Aunque a menudo asociamos XMRig con la minería de CPU para RandomX, también es compatible con una serie de algoritmos y minería en GPU. Probamos el soporte de KAWPOW y, francamente, tuvimos algunos problemas para que funcionara en dos plataformas de minería Radeon RX 580 diferentes, así como en una plataforma GTX 1080 Ti, por lo que volvimos a usar TeamRedMiner como la solución de mejor rendimiento para GPU AMD y T-Rex para Nvidia por el momento en lo que a minería de RVN se refiere.
-Le recordamos que XMRig es un minero de GPU de anuncios de GPU de código abierto disponible para los sistemas operativos Windows y Liunx, los archivos binarios precompilados oficiales tienen una tarifa de desarrollador del 1%, aunque puede compilar usted mismo con tarifa cero desde el código fuente si lo desea y poder. 
+# XMRig
+
+[![Github All Releases](https://img.shields.io/github/downloads/xmrig/xmrig/total.svg)](https://github.com/xmrig/xmrig/releases)
+[![GitHub release](https://img.shields.io/github/release/xmrig/xmrig/all.svg)](https://github.com/xmrig/xmrig/releases)
+[![GitHub Release Date](https://img.shields.io/github/release-date/xmrig/xmrig.svg)](https://github.com/xmrig/xmrig/releases)
+[![GitHub license](https://img.shields.io/github/license/xmrig/xmrig.svg)](https://github.com/xmrig/xmrig/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/xmrig/xmrig.svg)](https://github.com/xmrig/xmrig/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/xmrig/xmrig.svg)](https://github.com/xmrig/xmrig/network)
+
+XMRig is a high performance, open source, cross platform RandomX, KawPow, CryptoNight, AstroBWT and [GhostRider](https://github.com/xmrig/xmrig/tree/master/src/crypto/ghostrider#readme) unified CPU/GPU miner and [RandomX benchmark](https://xmrig.com/benchmark). Official binaries are available for Windows, Linux, macOS and FreeBSD.
+
+## Mining backends
+- **CPU** (x64/ARMv8)
+- **OpenCL** for AMD GPUs.
+- **CUDA** for NVIDIA GPUs via external [CUDA plugin](https://github.com/xmrig/xmrig-cuda).
+
+## Download
+* **[Binary releases](https://github.com/xmrig/xmrig/releases)**
+* **[Build from source](https://xmrig.com/docs/miner/build)**
+
+## Usage
+The preferred way to configure the miner is the [JSON config file](https://xmrig.com/docs/miner/config) as it is more flexible and human friendly. The [command line interface](https://xmrig.com/docs/miner/command-line-options) does not cover all features, such as mining profiles for different algorithms. Important options can be changed during runtime without miner restart by editing the config file or executing [API](https://xmrig.com/docs/miner/api) calls.
+
+* **[Wizard](https://xmrig.com/wizard)** helps you create initial configuration for the miner.
+* **[Workers](http://workers.xmrig.info)** helps manage your miners via HTTP API.
+
+## Donations
+* Default donation 1% (1 minute in 100 minutes) can be increased via option `donate-level` or disabled in source code.
+* XMR: `48edfHu7V9Z84YzzMa6fUueoELZ9ZRXq9VetWzYGzKt52XU5xvqgzYnDK9URnRoJMk1j8nLwEVsaSWJ4fhdUyZijBGUicoD`
+
+## Developers
+* **[xmrig](https://github.com/xmrig)**
+* **[sech1](https://github.com/SChernykh)**
+
+## Contacts
+* support@xmrig.com
+* [reddit](https://www.reddit.com/user/XMRig/)
+* [twitter](https://twitter.com/xmrig_dev)
