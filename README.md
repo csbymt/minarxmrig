@@ -1,4 +1,4 @@
-# XMRig para aplicación de enseñanza academica. no usar para otro estudio
+# XMRig para aplicación de enseñanza academica en Prueba de Trabajo en minado de bloques. no usar para otro estudio
 
 [![Github All Releases](https://img.shields.io/github/downloads/xmrig/xmrig/total.svg)](https://github.com/xmrig/xmrig/releases)
 [![GitHub release](https://img.shields.io/github/release/xmrig/xmrig/all.svg)](https://github.com/xmrig/xmrig/releases)
